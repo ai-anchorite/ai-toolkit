@@ -10,5 +10,15 @@ module.exports = {
       path: "app",
       message: "git pull"
     }
+  }, {
+     method: "shell.run",
+     params: {
+       venv: "env",
+       path: "app",
+       message: [
+        "uv pip uninstall diffusers",
+        "uv pip install -r requirements.txt"
+      ]
+    }
   }]
 }
