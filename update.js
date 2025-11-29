@@ -17,7 +17,8 @@ module.exports = {
        path: "app",
        message: [
         "uv pip uninstall diffusers",
-        "uv pip install -r requirements.txt"
+        "uv pip install -r requirements.txt",
+        "uv pip install hf-xet==1.2.0"
       ]
     }
   }]
