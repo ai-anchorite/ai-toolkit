@@ -18,7 +18,8 @@ module.exports = {
        message: [
         "uv pip uninstall diffusers",
         "uv pip install -r requirements.txt",
-        "uv pip install hf-xet==1.2.0"
+        "pip uninstall hf-xet" // stalling download for some reason
+        // "uv pip install hf-xet==1.2.0"
       ]
     }
   }]
