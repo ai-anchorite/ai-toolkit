@@ -41,7 +41,7 @@ module.exports = {
         message: [
           "uv pip install gradio devicetorch",
           "uv pip install -r requirements.txt",
-          "uv pip install hf_xet"
+          // "uv pip install hf_xet"  currently has some issues with stalled downloads. will revisit. 
         ]
       }
     },
